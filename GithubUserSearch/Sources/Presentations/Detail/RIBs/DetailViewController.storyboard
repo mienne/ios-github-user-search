@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller-->
+        <scene sceneID="Bhv-7S-Qcw">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="XI4-kP-jkb" customClass="DetailViewController" customModule="GithubUserSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y3E-wD-TmB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1wv-l6-ShL">
+                                <rect key="frame" x="0.0" y="44" width="414" height="414"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1wv-l6-ShL" secondAttribute="height" multiplier="1:1" id="2Fc-GP-uTQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIx-fc-S5F">
+                                <rect key="frame" x="15" y="488" width="384" height="36"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8g-J6-ad2">
+                                <rect key="frame" x="15" y="59" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="RJn-PQ-7Hf"/>
+                                    <constraint firstAttribute="height" constant="32" id="e49-sr-oBM"/>
+                                </constraints>
+                                <state key="normal" image="xmark.circle.fill" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RIx-fc-S5F" firstAttribute="leading" secondItem="YDH-iU-pTL" secondAttribute="leading" constant="15" id="B2k-DJ-kMS"/>
+                            <constraint firstItem="i8g-J6-ad2" firstAttribute="top" secondItem="YDH-iU-pTL" secondAttribute="top" constant="15" id="KPr-Fq-mRM"/>
+                            <constraint firstItem="1wv-l6-ShL" firstAttribute="leading" secondItem="YDH-iU-pTL" secondAttribute="leading" id="Vyh-70-Ipf"/>
+                            <constraint firstItem="RIx-fc-S5F" firstAttribute="top" secondItem="1wv-l6-ShL" secondAttribute="bottom" constant="30" id="f6f-AW-rtU"/>
+                            <constraint firstItem="YDH-iU-pTL" firstAttribute="trailing" secondItem="1wv-l6-ShL" secondAttribute="trailing" id="fYl-iE-8GB"/>
+                            <constraint firstItem="YDH-iU-pTL" firstAttribute="trailing" secondItem="RIx-fc-S5F" secondAttribute="trailing" constant="15" id="nkm-vi-bsy"/>
+                            <constraint firstItem="i8g-J6-ad2" firstAttribute="leading" secondItem="YDH-iU-pTL" secondAttribute="leading" constant="15" id="oNF-Nj-ZiP"/>
+                            <constraint firstItem="1wv-l6-ShL" firstAttribute="top" secondItem="YDH-iU-pTL" secondAttribute="top" id="vwZ-f5-IUM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YDH-iU-pTL"/>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="i8g-J6-ad2" id="DYk-St-JcE"/>
+                        <outlet property="thumbnailImageView" destination="1wv-l6-ShL" id="fSh-c8-cfW"/>
+                        <outlet property="userNameLabel" destination="RIx-fc-S5F" id="nGM-Iq-nw1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4im-lh-hvX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="-216"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

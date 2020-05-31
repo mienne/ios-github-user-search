@@ -1,0 +1,38 @@
+included:
+  - GithubUserSearch
+excluded: 
+  - Pods
+  - Carthage
+  - GithubUserSearch/Resources/R.generated.swift
+line_length:
+  warning: 200
+  error: 250
+type_body_length:
+  warning: 250
+  error: 300
+file_length:
+  warning: 350
+  error: 400
+cyclomatic_complexity:
+  error: 25
+type_name:
+  min_length:
+    error: 1
+  max_lenght:
+    warning: 50
+    error: 60
+identifier_name:
+  min_length:
+    error: 1
+  max_lenght:
+    error: 50
+  excluded:
+    - a
+    - b
+    - q
+    - r
+    - x
+    - y
+    - id
+    - URL
+reporter: "xcode"

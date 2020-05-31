@@ -1,0 +1,10 @@
+/* 
+  localizables.strings
+  GithubUserSearch
+
+  Created by hyeonjeong on 2020/05/31.
+  Copyright © 2020 hyeonjeong. All rights reserved.
+*/
+
+search_input_placeholder = "Input keyword😀";
+search_input_number = "ea";
