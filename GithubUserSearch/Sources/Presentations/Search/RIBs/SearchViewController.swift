@@ -1,11 +1,3 @@
-//
-//  SearchViewController.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/05/31.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import UIKit
 import BonMot
 import ReactorKit
@@ -17,7 +9,7 @@ import RxOptional
 import RxDataSources
 
 // MARK: - SearchPresentableListener
-protocol SearchPresentableListener: class {
+protocol SearchPresentableListener: AnyObject {
 
     var state: Observable<SearchViewState> { get }
     var action: ActionSubject<SearchViewAction> { get }

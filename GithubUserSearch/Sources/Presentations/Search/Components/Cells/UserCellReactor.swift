@@ -1,11 +1,3 @@
-//
-//  SearchUserReactor.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/06/09.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import ReactorKit
 
 enum UserAction { }

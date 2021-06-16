@@ -1,15 +1,7 @@
-//
-//  APIClientManager.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/06/01.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import Moya
 import RxSwift
 
-protocol APIClient: class {
+protocol APIClient: AnyObject {
 
     func request(_ target: TargetType) -> Single<Response>
 }

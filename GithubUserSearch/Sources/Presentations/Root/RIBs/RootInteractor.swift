@@ -1,11 +1,3 @@
-//
-//  RootInteractor.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/05/30.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import RIBs
 import RxSwift
 
@@ -19,7 +11,7 @@ protocol RootPresentable: Presentable {
 }
 
 // MARK: - RootListener
-protocol RootListener: class { }
+protocol RootListener: AnyObject { }
 
 // MARK: - Interactor
 final class RootInteractor: PresentableInteractor<RootPresentable>, RootInteractable, RootPresentableListener {

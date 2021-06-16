@@ -1,15 +1,7 @@
-//
-//  SearchRepositoy.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/05/31.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import RxSwift
 import Moya
 
-protocol SearchRepositoy: class {
+protocol SearchRepositoy: AnyObject {
 
     func searchUsers(params: SearchUserParams) -> Single<Users>
 }

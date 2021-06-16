@@ -1,11 +1,3 @@
-//
-//  UITableView+Rx.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/06/29.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import UIKit
 import RxSwift
 import RxCocoa

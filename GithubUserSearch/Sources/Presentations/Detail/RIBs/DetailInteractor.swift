@@ -1,11 +1,3 @@
-//
-//  DetailInteractor.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/06/05.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import RIBs
 import RxSwift
 
@@ -21,7 +13,7 @@ protocol DetailPresentable: Presentable {
 }
 
 // MARK: - DetailListener
-protocol DetailListener: class {
+protocol DetailListener: AnyObject {
 
     func detachDetail()
 }

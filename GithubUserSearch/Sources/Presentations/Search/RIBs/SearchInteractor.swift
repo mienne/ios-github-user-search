@@ -1,11 +1,3 @@
-//
-//  SearchInteractor.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/05/31.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import ReactorKit
 import RIBs
 import RxSwift
@@ -24,7 +16,7 @@ protocol SearchPresentable: Presentable {
 }
 
 // MARK: - SearchListener
-protocol SearchListener: class { }
+protocol SearchListener: AnyObject { }
 
 // MARK: - Interactor
 final class SearchInteractor: PresentableInteractor<SearchPresentable>, SearchInteractable, SearchPresentableListener {

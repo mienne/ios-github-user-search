@@ -1,11 +1,3 @@
-//
-//  DetailRouter.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/06/05.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import RIBs
 
 // MARK: - DetailInteractable

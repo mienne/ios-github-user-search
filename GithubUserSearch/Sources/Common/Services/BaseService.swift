@@ -1,11 +1,3 @@
-//
-//  BaseService.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/05/30.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import Moya
 
 protocol BaseService: TargetType, Hashable { }
@@ -18,6 +10,7 @@ extension BaseService {
 
     var headers: [String: String]? {
         return [
+            // TODO: - Add APIKey
             "Authorization": "token 63934fe801e4dc64ca8c699a1458ff5d3dec8aa1",
             "Content-Type": "application/json; charset=utf-8",
             "Accept": "application/vnd.github.v3+json"

@@ -1,14 +1,6 @@
-//
-//  Storyboardable.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/05/31.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import UIKit
 
-protocol Storyboardable: class, NSObjectProtocol {
+protocol Storyboardable: AnyObject, NSObjectProtocol {
 
     associatedtype Instance
     associatedtype Dependency

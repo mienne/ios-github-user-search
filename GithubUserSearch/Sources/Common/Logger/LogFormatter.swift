@@ -1,14 +1,7 @@
-//
-//  Logger.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/05/30.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import CocoaLumberjack
 
 // 출처: - https://github.com/devxoul/Drrrible/blob/master/Drrrible/Sources/Logging/Logger.swift
+
 class LogFormatter: NSObject, DDLogFormatter {
 
     static var dateFormatter: DateFormatter = {

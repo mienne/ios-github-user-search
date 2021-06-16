@@ -1,17 +1,9 @@
-//
-//  RootViewController.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/05/30.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import RIBs
 import RxSwift
 import UIKit
 
 // MARK: - RootPresentableListener
-protocol RootPresentableListener: class { }
+protocol RootPresentableListener: AnyObject { }
 
 // MARK: - RootViewController
 final class RootViewController: UIViewController, RootPresentable, RootViewControllable {

@@ -1,17 +1,9 @@
-//
-//  DetailViewController.swift
-//  GithubUserSearch
-//
-//  Created by hyeonjeong on 2020/06/05.
-//  Copyright © 2020 hyeonjeong. All rights reserved.
-//
-
 import RIBs
 import RxSwift
 import UIKit
 
 // MARK: - DetailPresentableListener
-protocol DetailPresentableListener: class {
+protocol DetailPresentableListener: AnyObject {
 
     func detach()
 }
