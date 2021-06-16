@@ -1,10 +1,5 @@
 import RxSwift
 
-protocol SearchUseCase: AnyObject {
-
-    func searchUsers(query: String, page: Int, per: Int) -> Single<Users>
-}
-
 final class DefaultSearchUseCase: SearchUseCase {
 
     private let repository: SearchRepositoy

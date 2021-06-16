@@ -21,7 +21,7 @@
 		6D85D254248EA3CF00A4011A /* SearchViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85D253248EA3CF00A4011A /* SearchViewSection.swift */; };
 		6D97EFEA24834396008459FE /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D97EFE824834396008459FE /* UserCell.swift */; };
 		6D97EFF9248354CC008459FE /* SearchInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D97EFF8248354CC008459FE /* SearchInputView.swift */; };
-		6D97F00A2483646F008459FE /* SearchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D97F0092483646F008459FE /* SearchUseCase.swift */; };
+		6D97F00A2483646F008459FE /* DefaultSearchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D97F0092483646F008459FE /* DefaultSearchUseCase.swift */; };
 		6D97F00D248365A7008459FE /* SearchRepositoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D97F00C248365A7008459FE /* SearchRepositoy.swift */; };
 		6DB15DD3248947DB00827846 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB15DCF248947DB00827846 /* DetailRouter.swift */; };
 		6DB15DD4248947DB00827846 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB15DD0248947DB00827846 /* DetailViewController.swift */; };
@@ -57,6 +57,8 @@
 		6DD0F3322482CCBD00DA36B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD0F3312482CCBD00DA36B3 /* LaunchScreen.storyboard */; };
 		6DD0F3432482CEA200DA36B3 /* localizables.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DD0F3452482CEA200DA36B3 /* localizables.strings */; };
 		7929930248185BE00F80DFE2 /* Pods_GithubUserSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76CAE6201979CF2FA7CB2AC /* Pods_GithubUserSearchTests.framework */; };
+		930BE34B267A29240038016D /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930BE34A267A29240038016D /* SearchRepository.swift */; };
+		930BE34E267A29670038016D /* SearchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930BE34D267A29670038016D /* SearchUseCase.swift */; };
 		B4F18BA397BA0CF11513DDC0 /* Pods_GithubUserSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C7A42A656A1D890103A020 /* Pods_GithubUserSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,7 +94,7 @@
 		6D85D253248EA3CF00A4011A /* SearchViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewSection.swift; sourceTree = "<group>"; };
 		6D97EFE824834396008459FE /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		6D97EFF8248354CC008459FE /* SearchInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInputView.swift; sourceTree = "<group>"; };
-		6D97F0092483646F008459FE /* SearchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUseCase.swift; sourceTree = "<group>"; };
+		6D97F0092483646F008459FE /* DefaultSearchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSearchUseCase.swift; sourceTree = "<group>"; };
 		6D97F00C248365A7008459FE /* SearchRepositoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoy.swift; sourceTree = "<group>"; };
 		6DB15DCF248947DB00827846 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
 		6DB15DD0248947DB00827846 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,8 @@
 		6DD0F3462482CEA300DA36B3 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/localizables.strings; sourceTree = "<group>"; };
 		6EC647D6D43A138EFBB66B9F /* Pods-GithubSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearch.debug.xcconfig"; path = "Target Support Files/Pods-GithubSearch/Pods-GithubSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		8987B9213579B46979C2EA2C /* Pods-GithubSearchRIBsReactorkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearchRIBsReactorkit.debug.xcconfig"; path = "Target Support Files/Pods-GithubSearchRIBsReactorkit/Pods-GithubSearchRIBsReactorkit.debug.xcconfig"; sourceTree = "<group>"; };
+		930BE34A267A29240038016D /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
+		930BE34D267A29670038016D /* SearchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUseCase.swift; sourceTree = "<group>"; };
 		A19B248F7DDCAC2BFDD50A86 /* Pods-GithubSearchRIBsReactorkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearchRIBsReactorkit.release.xcconfig"; path = "Target Support Files/Pods-GithubSearchRIBsReactorkit/Pods-GithubSearchRIBsReactorkit.release.xcconfig"; sourceTree = "<group>"; };
 		B0C7A42A656A1D890103A020 /* Pods_GithubUserSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubUserSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76CAE6201979CF2FA7CB2AC /* Pods_GithubUserSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubUserSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -239,25 +243,6 @@
 			path = RIBs;
 			sourceTree = "<group>";
 		};
-		6D97F004248363DB008459FE /* Presentations */ = {
-			isa = PBXGroup;
-			children = (
-				6DB15DCD248947AC00827846 /* Detail */,
-				6D97F0062483642E008459FE /* Search */,
-				6DC727672482A09B00F97C29 /* Root */,
-			);
-			path = Presentations;
-			sourceTree = "<group>";
-		};
-		6D97F0062483642E008459FE /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				6D97EFE1248342BA008459FE /* Components */,
-				6D97F00324836348008459FE /* RIBs */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
 		6D97F00724836441008459FE /* RIBs */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,8 +258,9 @@
 		6D97F00824836458008459FE /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				930BE349267A29160038016D /* Interfaces */,
 				6D0FCACB24853F6000084B86 /* DTO */,
-				6D97F0092483646F008459FE /* SearchUseCase.swift */,
+				6D97F0092483646F008459FE /* DefaultSearchUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -290,7 +276,7 @@
 		6DB15DCD248947AC00827846 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				6DB15DCE248947C900827846 /* RIBs */,
+				930BE352267A29F60038016D /* Presentations */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -386,11 +372,10 @@
 		6DC7276124829F7500F97C29 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6DC727672482A09B00F97C29 /* Root */,
+				6DB15DCD248947AC00827846 /* Detail */,
+				930BE34F267A298E0038016D /* Search */,
 				6DC7276224829F8000F97C29 /* Common */,
-				6DC727812482AB9100F97C29 /* Entities */,
-				6D97F00B2483658C008459FE /* Ropositories */,
-				6D97F00824836458008459FE /* UseCases */,
-				6D97F004248363DB008459FE /* Presentations */,
 				6DC7275B24829C2A00F97C29 /* Entry */,
 			);
 			path = Sources;
@@ -399,8 +384,8 @@
 		6DC7276224829F8000F97C29 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				6DC727892482AD9F00F97C29 /* Services */,
-				6DC727862482AC7900F97C29 /* Network */,
+				6DC727812482AB9100F97C29 /* Entities */,
+				6DC727862482AC7900F97C29 /* API */,
 				6DC7278C2482AE8E00F97C29 /* Extensions */,
 				6DC727782482A4FD00F97C29 /* Logger */,
 				6DC7276324829F8800F97C29 /* Protocols */,
@@ -420,7 +405,7 @@
 		6DC727672482A09B00F97C29 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				6D97F00724836441008459FE /* RIBs */,
+				930BE351267A29E40038016D /* Presentations */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -444,21 +429,14 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
-		6DC727862482AC7900F97C29 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				6D0FCAC924853F0C00084B86 /* APIClientManager.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		6DC727892482AD9F00F97C29 /* Services */ = {
+		6DC727862482AC7900F97C29 /* API */ = {
 			isa = PBXGroup;
 			children = (
 				6DC7277F2482A93A00F97C29 /* BaseService.swift */,
 				6DC7278A2482ADB700F97C29 /* GithubService.swift */,
+				6D0FCAC924853F0C00084B86 /* APIClientManager.swift */,
 			);
-			path = Services;
+			path = API;
 			sourceTree = "<group>";
 		};
 		6DC7278C2482AE8E00F97C29 /* Extensions */ = {
@@ -471,6 +449,58 @@
 				6DB6B42C24AA34DB000B54D8 /* UITableView+Rx.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		930BE349267A29160038016D /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				930BE34A267A29240038016D /* SearchRepository.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		930BE34C267A295C0038016D /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				930BE34D267A29670038016D /* SearchUseCase.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		930BE34F267A298E0038016D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				6D97F00B2483658C008459FE /* Ropositories */,
+				6D97F00824836458008459FE /* UseCases */,
+				930BE350267A29B30038016D /* Presentations */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		930BE350267A29B30038016D /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				930BE34C267A295C0038016D /* Interfaces */,
+				6D97EFE1248342BA008459FE /* Components */,
+				6D97F00324836348008459FE /* RIBs */,
+			);
+			path = Presentations;
+			sourceTree = "<group>";
+		};
+		930BE351267A29E40038016D /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				6D97F00724836441008459FE /* RIBs */,
+			);
+			path = Presentations;
+			sourceTree = "<group>";
+		};
+		930BE352267A29F60038016D /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				6DB15DCE248947C900827846 /* RIBs */,
+			);
+			path = Presentations;
 			sourceTree = "<group>";
 		};
 		D9A7275673FFD8ED0DFF2FB8 /* Pods */ = {
@@ -725,7 +755,9 @@
 				6DC7276F2482A0AB00F97C29 /* RootInteractor.swift in Sources */,
 				6DB15DD3248947DB00827846 /* DetailRouter.swift in Sources */,
 				6D678D46248E9BD10006F551 /* UserCellReactor.swift in Sources */,
+				930BE34E267A29670038016D /* SearchUseCase.swift in Sources */,
 				6D85D254248EA3CF00A4011A /* SearchViewSection.swift in Sources */,
+				930BE34B267A29240038016D /* SearchRepository.swift in Sources */,
 				6DB15DD6248947DB00827846 /* DetailInteractor.swift in Sources */,
 				6DC727832482ABA100F97C29 /* User.swift in Sources */,
 				6DC7279A2482B1A100F97C29 /* SearchBuilder.swift in Sources */,
@@ -734,7 +766,7 @@
 				6DC727732482A12E00F97C29 /* AppComponent.swift in Sources */,
 				6DC727A32482BC7100F97C29 /* UINavigationController+RIBs.swift in Sources */,
 				6DC727A12482BA1C00F97C29 /* UIViewController+Child.swift in Sources */,
-				6D97F00A2483646F008459FE /* SearchUseCase.swift in Sources */,
+				6D97F00A2483646F008459FE /* DefaultSearchUseCase.swift in Sources */,
 				6DC7277A2482A51100F97C29 /* LogFormatter.swift in Sources */,
 				6DC7277C2482A70C00F97C29 /* Logger.swift in Sources */,
 				6DC7278E2482AE9700F97C29 /* Encodable+Dictionary.swift in Sources */,

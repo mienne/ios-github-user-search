@@ -1,11 +1,6 @@
 import RxSwift
 import Moya
 
-protocol SearchRepositoy: AnyObject {
-
-    func searchUsers(params: SearchUserParams) -> Single<Users>
-}
-
 final class DefaultSearchRepositoy: SearchRepositoy {
 
     private let apiClient: APIClient
